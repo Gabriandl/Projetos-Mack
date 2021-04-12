@@ -1,0 +1,66 @@
+.wrappera {
+    width: 1040px;
+    height: 1000px;
+    padding: 10px;
+    clear: both;
+    position: center;
+    margin: 0px auto;
+}
+h1 {
+	padding-top: 20px;
+	font-family: "times new roman";
+	font-size: 30px;
+}
+h3 {
+	font-family: "times new roman";
+	font-size: 20px;
+}
+.caption {
+	font-family: "times new roman";
+	font-size: 14px;
+	text-align: justify;
+	margin: 5px;
+}
+.imgprodutos {
+	width:200px;
+	height: 200px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.Comprar {
+  text-decoration:none;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:20px 20px ;
+  float: left ;
+  text-align: center;
+  font-family: arial;
+  border-radius: 5px;
+  background-color:#A4D3EE;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+ }

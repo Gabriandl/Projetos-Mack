@@ -1,0 +1,64 @@
+h1 {
+	font-size: 24px;
+	font-family: "Times New Roman"
+    padding-bottom: 15px;
+}
+.body_content article .wrappera {
+    padding: 10px;
+    width: 940px;
+}
+
+.wrappera {
+    width: 940px;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    margin: 0px auto;
+}
+.modulo_contato_form .contatoForm .contatoRotulo {
+    padding-bottom: 2px;
+    margin-top: 8px;
+}
+
+.contatoRotulo {
+    vertical-align: top;
+}
+.contatoValor {
+    vertical-align: top;
+}
+
+
+.modulo_contato_form .contatoForm input, .noticiaComentarios input {
+    width: 300px;
+    padding: 6px;
+    border: 1px solid;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-color: #adadad;
+    border-radius: 5px;
+
+}
+.modulo_contato_form .contatoForm textarea, .noticiaComentarios textarea {
+    width: 300px;
+    padding: 6px;
+    border: 1px solid;
+    margin-top: 5px;
+    font-family: "Times New Roman" !important;
+    margin-right: 5px;
+    border-color: #adadad; 
+    border-radius: 5px;
+   
+}
+.modulo_contato_form .contatoForm .formButton {
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    width: 100px !important;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+
+
+}
+
+

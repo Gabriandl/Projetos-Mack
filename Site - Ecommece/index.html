@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+	    <meta charset="utf-8"/>
+	    <meta name="description" content="Na GaWeD você pode anunciar ou comprar seus cursos e workshops da area de Desenvolvimento de Web como: HTML5, CSS3, Bootstrap, JavaScript, PHP e MySQL" />
+	    <meta name="keywords" content="Desenvolvimento de Web, e-commerce, curso, workshop, HTML5, CSS3, JavaScript." />
+	    <meta name="author" content="Gabriel Andrade Almeida" />
+	    <title> Home - GaWeD </title>
+	    <link rel="stylesheet" type="text/css" href="headerFooter.css"/> 
+	    <link rel="stylesheet" type="text/css" href="index.css"/> 
+	    <script>
+			function saudacao(){
+				var hoje = new Date();
+				var hora = hoje.getHours();
+				var nome;
+				var saudacao;  
+				var resultado;
+				if (hora>18) {
+					resultado = "Boa noite ";
+				} else if (hora>12) {
+					resultado = "Boa tarde ";
+				} else if (hora>0) {
+					resultado = "Bom dia ";
+				} else {
+					resultado = "Bem Vindo ";
+				}
+				nome = prompt ("Qual é o seu nome?"); 
+				saudacao = (resultado+nome+"!");
+				return saudacao;
+			}
+		</script>
+
+	</head>
+
+	<body>	
+		
+		<div class="corHeader">
+
+		<header>
+
+		    <div class="wrapper">
+		    	<script class="saudacao">
+					var s = saudacao();
+					document.write("<h2>"+s+"</h2>");
+				</script>	
+		        <figure class="logo">
+		            <a href="index.html" title="Home "><img src="imagens/gawed.png" alt="logo" class="logo" title="GaWeD" /></a>
+		        </figure>
+		            <div class="menuSuspenso menuSuspensoBloco">
+		            	
+		            	<div class="dropdownmenu dropdownmenu_dir3">
+
+		                <ul class="clearfix menuItem">
+
+		                    <li class="menuItem"><a href="index.html">Home </a></li>
+
+		                    <li class="menuItem"><a href="produto1.html">Produtos</a></li>
+
+		                    <li class="menuItem"><a href="associe.html">Associe-se</a></li>
+
+		                    <li class="menuItem"><a href="contato.html">Contato</a></li>
+		                </ul>
+		            	</div>
+		            </div>
+
+		    </div>
+			
+		</header>
+		</div>
+		<hr>
+	    <article>
+	    	<div class="wrapper">
+		        <!-- CONTENT -->
+		        <div id="content">
+		            <div class="modulo_conteudo modulo_conteudo_quem-somos">
+
+		                <div class="h1_top"></div>
+		                <div class="h1_center">
+		                    <h1>Quem Somos ? </h1>
+		                </div>
+
+		                <div class="conteudoTexto">
+
+		                    <p class="p1">Fundada em 2020 somos novos no mercado, nosso meta é ajudar pessoas a vender seus cursos ou workshops sem custo algum, e, do mesmo modo, incentivar as pessoas a adquirir esse conteudo e agregar a área de Desenvolvimento de Web.além de nossos clientes terem uma plataforma de e-commerce completa, com todo suporte e recursos necessários, tenham também grandes soluções de Marketing Digital, os auxiliando e guiando para o sucesso.
+		                    </p>
+
+		                    <p class="p1">Novas experiências e conhecimentos diferenciados para cada segmento de mercado são incorporadas a nossa plataforma nas operações do dia a dia.</p>
+
+		                    <p class="p1" >A missão da GaWeD é melhorar vidas por meio de aprendizado. Nosso objetivo é apresentar uma extensa biblioteca em vários idiomas, com diversos curso e workshops ministrados por instrutores especializados.  Esses cursos e workshops são todos da area de Desenvolvimento de Web como: HTML5, CSS3, Bootstrap, JavaScript, JQuery, PHP, POO e MySQL. Verifique regularmente os cursos mais recentes. As oportunidades de aprendizado são inúmeras!
+		                    </p>
+
+		                    <h3>Nossos valores são: </h3>
+		                    
+			                <ul class="lista1" >
+		                   		<li> Sempre buscar atender às necessidades de nosso clientes; </li>
+
+		                   		<li> Não fazer o cliente perder tempo; </li>
+
+								<li> Agir com transparência; </li>
+
+								<li> Buscar o sucesso de nossos clientes. </li>
+		                	</ul>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</article>
+		<hr>
+	    <footer>
+	        <div class="wrapperf">
+	            <div class="rodape">
+	                <div class="bloco bloco_12">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Navegação</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="12">
+	                            <div class="menuSite menuSiteBloco">
+	                                <ul>
+	                                    <li class="nivel-0"><a href="index.html"> Home </a></li>
+	                                   
+	 		                   		    <li class="nivel-0"><a href="produto1.html">Produtos</a></li>
+		                                <li class="nivel-0"><a href="associe.html">Associe-se</a></li>
+
+		                                <li class="nivel-0"><a href="contato.html">Contato</a></li>
+	                                </ul>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="bloco bloco_14">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Newsletter</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="14">
+	                            <div class="bloco_newsletter newsletterRegister">
+	                                <form name="newsletter" class="newsletterForm" method="post">
+
+	                                    <div class="newsletterRegisterRotulo"></div>
+	                                    <div class="newsletterRegisterCampo">
+	                                        <input class="seuemail" type="email" name="email" maxlength="60" value="" placeholder="Seu Email"/>
+	                                    </div>
+	                                    <div class="newsletterRegisterButton">
+	                                        <input name="ok" type="submit" value="Enviar" />
+	                                    </div>
+	                                </form>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="bloco bloco_15">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Conecte-se</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="15">
+	                            <div class="bloco_modelo_redes">
+	                                <ul class="redes-sociais">
+	                                    <li>
+	                                        <a href="http://www.facebook.com/" title="Facebook" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-facebook.png" alt="" title=""></a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="http://www.twitter.com/" title="Twitter" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-twitter.png" alt="" title=""></a>
+	                                    </li>
+	                                    <li>
+	                                        <a rel="publisher" href="http://www.google.com.br/" title="Google+" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-google.png" alt="" title=""></a>
+	                                    </li>
+	                                </ul>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="corPrefooter">
+	            <div class="pre-footer">
+	                <ul class="endereco">
+	                    <li class="localizacao">
+	                        <img src="imagens/local.png" alt="Icone de Local" title="Av Paulista, 11333, Bela Vista – São Paulo/SP<br>CEP: 01311-922">
+	                        <span>Av Paulista, 11333, Bela Vista – São Paulo/SP<br>CEP: 01311-922</span>
+	                    </li>
+	                    <li class="telefone">
+	                        <img src="imagens/telefone.png" alt="Icone de telefone" title="(11) 5555-4444 - Fixo<br>(11) 99999-8888 - Comercial">
+	                        <span>(11) 5555-4444 - Fixo<br>(11) 99999-8888 - Comercial</span>
+	                    </li>
+	                    <li class="email">
+	                        <img src="imagens/email.png" alt="Icone de email" title="gabriel@gawed.com.br  comercial@gawed.com.br">
+	                        <span>gabriel@gawed.com.br  comercial@gawed.com.br</span>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div id="footerTexto">
+	               
+	                <script type="text/javascript">
+	                	document.write("Desenvolvido por Gabriel Andrade Almeida © 2020 GaWeD Web Developement - Todos os Direitos Reservados")
+	                </script>
+	            </div>
+	       		</div>
+	        </div>
+	    </footer>
+	</body>
+</html>

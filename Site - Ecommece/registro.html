@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+	    <meta charset="utf-8" />
+	    <title> Registrar - GaWeD </title>
+	    <link rel="stylesheet" type="text/css" href="headerFooter.css"/> 
+	    <link rel="stylesheet" type="text/css" href="registro.css"/> 
+		<script type="text/javascript">
+	    	
+	    	function validar(){
+	    	var nome = register.email.value;
+	    	var senha = register.psw.value;
+	    	var senha2 = register.pswrepeat.value;
+
+	    	if (nome== ""){
+	    		alert("Preencha o campo Nome de Usuario.");
+	    		formuser.email.focus();
+	    		return false;
+	    	}
+	    	if (senha != senha2 ){
+	    		alert("As senhas não conferem! Preencha novamente.");
+	    		formuser.psw.focus();
+	    		return false;
+	    	}
+
+	    	}
+	    </script>
+
+
+	</head>
+
+	<body>
+		<div class="corHeader">
+		<header>
+		    <div class="wrapper">
+		        <figure class="logo">
+		            <a href="index.html" title="Home "><img src="imagens/gawed.png" class="logo"  alt="logo" title="GaWeD" /></a>
+		        </figure>
+		            <div class="menuSuspenso menuSuspensoBloco">
+		            	<div class="dropdownmenu dropdownmenu_dir3">
+		                <ul class="clearfix menuItem">
+
+		                    <li class="menuItem"><a href="index.html">Home </a></li>
+
+		                    <li class="menuItem"><a href="produto1.html">Produtos</a></li>
+
+		                    <li class="menuItem"><a href="associe.html">Associe-se</a></li>
+
+		                    <li class="menuItem"><a href="contato.html">Contato</a></li>
+		                </ul>
+		            	</div>
+		            </div>
+
+		    </div>
+			
+		</header>
+		</div>		<hr>
+	    <article>
+		    <div class="wrappera">
+		    	<div class="borderForm">
+		    	<form name="register">
+				  <div class="container">
+				    <h1>Registrar</h1>
+				    <p>Preencha esse formulário para criar uma conta:</p>
+				  
+
+				    <label for="email"><b>Nome de Usuario</b></label>
+				    <input class="form" type="text" placeholder="Digite o nome de usuario" name="email" id="email" >
+
+				    <label for="psw"><b>Senha</b></label>
+				    <input class="form" type="password" placeholder="Digite a senha" name="psw" id="psw">
+
+				    <label for="psw-repeat"><b>Repita a senha</b></label>
+				    <input class="form" type="password" placeholder="Digite a senha novamente" name="pswrepeat" id="psw-repeat" >
+				    <hr>
+
+				    <p>Ao criar uma conta você concorda com nossos <a href="termos.html">Termos e Condições</a>.</p>
+				    <button type="submit" class="registerbtn" onclick="return validar()">Registrar</button>
+
+				    <p class="signin">Ja é um associado? <a href="associe.html">Entre</a>.</p>
+				  </div>
+				</form>
+			</div>
+		    </div>
+		</article>
+		<hr>
+	    <footer>
+	        <div class="wrapperf">
+	            <div class="rodape">
+	                <div class="bloco bloco_12">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Navegação</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="12">
+	                            <div class="menuSite menuSiteBloco">
+	                                <ul>
+	                                    <li class="nivel-0"><a href="index.html"> Home </a></li>
+	                                    
+	 		                   		    <li class="nivel-0"><a href="produto1.html">Produtos</a></li>
+		                                <li class="nivel-0"><a href="associe.html">Associe-se</a></li>
+
+		                                <li class="nivel-0"><a href="contato.html">Contato</a></li>
+	                                </ul>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="bloco bloco_14">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Newsletter</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="14">
+	                            <div class="bloco_newsletter newsletterRegister">
+	                                <form name="newsletter" class="newsletterForm" method="post">
+
+	                                    <div class="newsletterRegisterRotulo"></div>
+	                                    <div class="newsletterRegisterCampo">
+	                                        <input class="seuemail" type="email" name="email" maxlength="60" value="" placeholder="Seu Email"/>
+	                                    </div>
+	                                    <div class="newsletterRegisterButton">
+	                                        <input type='submit' name='bottom' id='botom' value="Enviar" />
+	                                    </div>
+	                                </form>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="bloco bloco_15">
+	                    <div class="titulo">
+	                        <div class="titulo_bloco_default">Conecte-se</div>
+	                    </div>
+	                    <div class="blocoContent">
+	                        <div class="plusBloco" data-bid="15">
+	                            <div class="bloco_modelo_redes">
+	                                <ul class="redes-sociais">
+	                                    <li>
+	                                        <a href="http://www.facebook.com/" title="Facebook" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-facebook.png" alt="" title=""></a>
+	                                    </li>
+	                                    <li>
+	                                        <a href="http://www.twitter.com/" title="Twitter" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-twitter.png" alt="" title=""></a>
+	                                    </li>
+	                                    <li>
+	                                        <a rel="publisher" href="http://www.google.com.br/" title="Google+" target="_blank"><img src="http://flex-institucional-05.izap.ws/plus/temas/flex-inst-05/img/ico-google.png" alt="" title=""></a>
+	                                    </li>
+	                                </ul>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="corPrefooter">
+	            <div class="pre-footer">
+	                <ul class="endereco">
+	                    <li class="localizacao">
+	                        <img src="imagens/local.png" alt="Icone de Local" title="Av Paulista, 11333, Bela Vista – São Paulo/SP<br>CEP: 01311-922">
+	                        <span>Av Paulista, 11333, Bela Vista – São Paulo/SP<br>CEP: 01311-922</span>
+	                    </li>
+	                    <li class="telefone">
+	                        <img src="imagens/telefone.png" alt="Icone de telefone" title="(11) 5555-4444 - Fixo<br>(11) 99999-8888 - Comercial">
+	                        <span>(11) 5555-4444 - Fixo<br>(11) 99999-8888 - Comercial</span>
+	                    </li>
+	                    <li class="email">
+	                        <img src="imagens/email.png" alt="Icone de email" title="gabriel@gawed.com.br  comercial@gawed.com.br">
+	                        <span>gabriel@gawed.com.br  comercial@gawed.com.br</span>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div id="footerTexto">
+	                Gabriel Andrade Almeida © 2020 GaWeD Web Developement - Todos os Direitos Reservados
+	            </div>
+	       		</div>
+	        </div>
+	    </footer>
+	</body>
+</html>

@@ -1,0 +1,219 @@
+body { background: lightblue;
+	margin: 20px;
+	font-family: "Times New Roman";
+}
+
+header {
+    height: 172px;
+}
+header a {
+	color: #000000;
+}
+.corHeader {
+    border-radius: 10px;
+	background: #87CEFA;
+}
+.logo {
+    width : 150px ;
+    height : 150px ;
+    border-radius: 10px;
+    float: left;
+    
+}
+.menuSuspensoBloco a {
+    text-transform: uppercase;
+    font-weight: 1000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all 140ms linear;
+}
+.menuSuspensoBloco {
+    margin-top: 95px;
+    width: auto;
+}
+.menuSuspenso {
+    position: relative;
+    z-index: 40;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.dropdownmenu_dir3 li.menuItem {
+    padding-left: 30px;
+    float: left;
+}
+
+.dropdownmenu ul li {
+    position: relative;
+    word-spacing: 80px; 
+}
+#content {
+    border-top: 1px dotted #333;
+    padding-top: 13px;
+}
+.dropdownmenu ul li a {
+    color: #000000;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 15px;
+}
+
+.dropdownmenu ul li a {
+    display: block;
+    overflow: auto;
+}
+.logo img {
+    margin-top: 3px;
+    margin-left: 0px;
+}
+.corPrefooter{
+    border-radius: 10px;
+	background: #4682B4;
+
+}
+footer, footer a {
+    color: #000000;
+}
+div { display: block;
+}
+div#footerTexto {     
+	float: left;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 12px
+}
+div.pre-footer { 
+	text-align: right;
+	font-size: 9px;
+	clear: both;
+
+}
+.newsletterForm {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ul {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.redes-sociais li {
+    float: left;
+    margin-right: 10px;
+}
+.endereco {
+	    color: #ffffff;
+    font-size: 12px;
+    height: 85px;
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+.endereco .localizacao {
+    width: 330px;
+}
+.endereco .telefone {
+    width: 214px;
+}
+.endereco .email {
+    width: 170px;
+}
+.endereco li {
+    float: left;
+    margin-left: 50px;
+}
+.endereco li img {
+    padding-right: 15px;
+    float: left;
+    margin: 31px 0px;
+}
+.endereco li span {
+    line-height: 17px;
+    display: table-cell;
+    vertical-align: middle;
+    height: 85px;
+}
+
+.wrapper {
+    width: 940px;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    margin: 0px auto;
+}
+.wrapperf {
+    border-top: 2px dotted #333;
+    width: 940px;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    margin: 0px auto;
+}
+.rodape {
+
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.rodape .bloco {
+    float: left;
+    margin-right: 97px;
+}
+.bloco.bloco_12 {
+    margin-left: 22px;
+}
+.rodape .titulo_bloco_default {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+ .bloco_newsletter.newsletterRegister {
+    width: 212px;
+    margin-right: 48px;
+    display: inline-block;
+}
+.titulo_bloco_default {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.blocoContent {
+	padding-bottom: 2px;
+}
+.newsletterRegisterCampo input  {
+    width: 199px;
+    padding: 6px;
+    border: 1px solid;
+    margin-top: 3px;
+    margin-right: 5px;
+    border-color: #adadad;
+    border-radius: 5px;
+}
+.newsletterRegisterButton input {
+    float: right;
+    margin-top: 10px;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0 none;
+}
+
